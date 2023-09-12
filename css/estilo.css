@@ -1,0 +1,172 @@
+*{
+box-sizing: border-box;
+}
+body{
+ margin: 3px;
+ padding: 3px;
+ background-color: grey;
+}
+
+@media (max-width: 768px) {
+  body { background-color: green; }
+}
+@media (min-width: 995px) {
+  body { background-color: blue; }
+}
+.wp-fijo {
+   position: fixed;
+   right: 5%;
+   top: 50%;
+}
+
+header {
+background-color: black;
+flex: 90%;
+display: flex;
+justify-content: space-between;
+gap: 50px;
+flex-wrap: wrap;
+padding: 1%;
+}
+
+.logo  {
+       gap: 50px;
+       margin-top: 40px;
+     }
+
+.redessociales {background-color: grey;
+      height: 40%;
+      margin-top: 150px;
+      padding: 1%;
+      }
+
+.row{
+ display:flex;
+ flex-wrap: wrap;
+}
+header h2{
+ display: flex;
+ font-size: 4rem;
+ text-align: center;
+ line-height: 150px;
+ font-family: 'Lobster', cursive;
+ color: blue;
+}
+
+h2:hover{
+font-size: 3rem;
+color: red;
+}
+
+aside {
+  display:flex;
+  justify-content: space-around;
+  flex: 50px;
+  align-items: center;
+ background-color: black;
+ margin: 12px;
+ padding: 3px;
+
+}
+
+.sin_decoracion {
+    margin-left: 0;
+    padding-left: 20px;
+    margin-top: -50px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    padding-right: 0px;
+    color: navajowhite;
+}
+
+@media (min-width: 768px) {
+  h3 { display: none; }
+}
+@media (max-width: 995px) {
+  h5 { display: none; }
+}
+@media (min-width: 995px) {
+  h4 { display: none; }
+}
+@media (max-width: 768px) {
+  h4 { display: none; }
+}
+
+section {
+ flex: 150px;
+ background-color: white;
+ padding: 10%;
+}
+h1{
+  color:orange;
+}
+.pizzas{
+display: flex;
+flex-wrap: wrap;
+padding-left: 10px;
+justify-content: center;
+gap:10px;
+margin-top: 40px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:10px;
+  padding-left: 20px;
+  justify-content: center;
+
+}
+.listas{
+display: flex;
+flex-wrap: wrap;
+padding-left: 10px;
+justify-content: center;
+    gap:20px;
+margin-top: 40px;
+}
+
+.rotulo{
+  display: flex;
+  justify-content: center;
+border-style: solid;
+}
+.deco_img {
+    border-style: solid;
+}
+
+.frase {
+  background-color: lightgreen;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  section { background-color: white; }
+}
+@media (min-width: 990px) {
+  section { background-color: white; }
+}
+.tamaño {color:brown;
+font-size: 2rem;
+font-family: 'Lobster', cursive;
+}
+
+footer { background-color: lightblue;
+display: flex;
+justify-content: space-between;
+gap: 50px;
+flex-wrap: wrap;
+padding: 5%;
+}
+.redessociales {background-color: grey;
+      height: 25%;
+      margin-top: 70px;
+}
+.desarrollador{
+font-size: 10px;
+margin-top: 40px;
+}
